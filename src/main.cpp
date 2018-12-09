@@ -38,7 +38,7 @@ private:
     std::map<SDL_Scancode, bool> m_keys_held;
  
 public:
-    event_t() noexcept = default;
+    event_t() = default;
     ~event_t() noexcept = default;
 
     void poll_events()
